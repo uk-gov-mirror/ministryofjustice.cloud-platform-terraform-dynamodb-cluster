@@ -47,7 +47,7 @@ See the [examples/](examples/) folder for more information.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_dynamodb_autoscaler"></a> [dynamodb\_autoscaler](#module\_dynamodb\_autoscaler) | cloudposse/dynamodb-autoscaler/aws | 0.14.0 |
+| <a name="module_dynamodb_autoscaler"></a> [dynamodb\_autoscaler](#module\_dynamodb\_autoscaler) | cloudposse/dynamodb-autoscaler/aws | 0.16.0 |
 
 ## Resources
 
