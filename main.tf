@@ -202,7 +202,7 @@ resource "aws_iam_role_policy" "autoscaler_cloudwatch" {
 module "dynamodb_autoscaler" {
   source = "cloudposse/dynamodb-autoscaler/aws"
 
-  version                      = "0.14.0"
+  version                      = "0.16.0"
   enabled                      = var.enable_autoscaler
   name                         = "cp-dynamo-${random_id.id.hex}"
   dynamodb_table_name          = aws_dynamodb_table.default.id
